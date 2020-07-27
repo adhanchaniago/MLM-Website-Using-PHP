@@ -9,6 +9,11 @@ body {
 #wrapper {
   width: 100%;
 }
+.navbar-header {
+  padding-left: 3.5%;
+  padding-right: 3.95%;
+  background-color: #33abcc;
+}
 #page-wrapper {
   padding: 0 15px;
   min-height: 568px;
@@ -75,10 +80,15 @@ body {
   padding: 15px;
 }
 .sidebar ul li {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom:none;
+  background-color: #858688;
+}
+.nav>li>a {
+  color: #c3c3c3;
 }
 .sidebar ul li a.active {
-  background-color: #eeeeee;
+  color: white;
+  background-color: #858688;
 }
 .sidebar .arrow {
   float: right;
@@ -117,8 +127,31 @@ body {
   background-color: transparent;
   transition: all .5s;
 }
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+  color: #fff;
+  background-color: #fb4e14d1;
+  border-color: #fb4e14d1;
+}
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #fb4e14d1;
+  border-color: #fb4e14d1;
+}
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #fb4e14d1;
+  border-color: #fb4e14d1;
+}
 .btn-primary.btn-outline {
-  color: #428bca;
+  color: #fb4e14d1;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fb4e14d1;
+  border-color: #fb4e14d1;
+}
+.btn-primary {
+  background-color: #fb4e14d1;
 }
 .btn-success.btn-outline {
   color: #5cb85c;
