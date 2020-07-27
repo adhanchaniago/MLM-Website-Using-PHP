@@ -84,9 +84,11 @@ body {
   background-color: #858688;
 }
 .nav>li>a {
-  color: #c3c3c3;
+  font-size: 14px;
+  color: #dcd8d8;
 }
 .sidebar ul li a.active {
+  font-size: 14px;
   color: white;
   background-color: #858688;
 }
@@ -126,6 +128,22 @@ body {
   color: inherit;
   background-color: transparent;
   transition: all .5s;
+}
+i.fa.fa-user.fa-fw {
+  color: black;
+}
+a.navbar-brand {
+  color: black !important;
+}
+i.fa.fa-caret-down{
+  color: black !important;
+}
+.navbar-default {
+  background-color: #33abcc;
+}
+.navbar-default.sidebar {
+  background-color: #858688;
+  min-height: calc(100vh - 50px);
 }
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
   color: #fff;
